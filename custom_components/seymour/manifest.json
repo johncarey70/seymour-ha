@@ -1,0 +1,16 @@
+{
+  "domain": "seymour",
+  "name": "Seymour Screen Masking",
+  "version": "1.0.0",
+  "codeowners": [
+    "@johncarey70"
+  ],
+  "config_flow": true,
+  "documentation": "https://github.com/johncarey70/seymour-ha",
+  "issue_tracker": "https://github.com/johncarey70/seymour-ha/issues",
+  "integration_type": "device",
+  "iot_class": "local_polling",
+  "requirements": [
+    "pyserial>=3.5"
+  ]
+}

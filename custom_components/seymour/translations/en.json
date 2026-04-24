@@ -1,0 +1,76 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to Seymour screen",
+        "description": "Choose the serial port for the Seymour controller.",
+        "data": {
+          "name": "Name",
+          "port": "Serial port"
+        }
+      }
+    },
+    "error": {
+      "no_serial_ports": "No serial ports were found.",
+      "cannot_connect": "Failed to connect to the Seymour controller."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Seymour options",
+        "data": {
+          "move_time": "Movement timeout (seconds)",
+          "home_motors_first": "Home motors first"
+        }
+      }
+    }
+  },
+  "entity": {
+    "select": {
+      "mask_ratio": {
+        "name": "Mask ratio"
+      }
+    },
+    "button": {
+      "home": {
+        "name": "Home"
+      },
+      "halt": {
+        "name": "Halt"
+      },
+      "calibrate": {
+        "name": "Calibrate"
+      }
+    },
+    "sensor": {
+      "actual_diagonal": {
+        "name": "Actual Screen Diagonal"
+      },
+      "actual_width": {
+        "name": "Actual Screen Width"
+      },
+      "actual_height": {
+        "name": "Actual Screen Height"
+      },
+      "num_motors": {
+        "name": "Number of Motors"
+      },
+      "num_ratios": {
+        "name": "Number of Ratios"
+      },
+      "native_aspect_ratio": {
+        "name": "Native Aspect Ratio"
+      },
+      "serial_number": {
+        "name": "Serial Number"
+      },
+      "screen_model": {
+        "name": "Screen Model"
+      },
+      "protocol_version": {
+        "name": "Protocol Version"
+      }
+    }
+  }
+}

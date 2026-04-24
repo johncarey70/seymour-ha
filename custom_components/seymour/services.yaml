@@ -1,0 +1,23 @@
+home_motors:
+  name: Home motors
+  description: Move the Seymour screen masking to the home position.
+
+halt_motors:
+  name: Halt motors
+  description: Halt motor movement immediately.
+
+calibrate_motors:
+  name: Calibrate motors
+  description: Calibrate motor travel time for the Seymour screen masking controller.
+
+move_motors_to_saved_ratio:
+  name: Move motors to saved ratio
+  description: Move the Seymour screen masking to a saved ratio ID.
+  fields:
+    ratio_id:
+      name: Ratio ID
+      description: Three-digit saved ratio ID to move to.
+      example: "235"
+      required: true
+      selector:
+        text:
