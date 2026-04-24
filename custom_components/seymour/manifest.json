@@ -1,7 +1,7 @@
 {
   "domain": "seymour",
   "name": "Seymour Screen Masking",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "codeowners": [
     "@johncarey70"
   ],
