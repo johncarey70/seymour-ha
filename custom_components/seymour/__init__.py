@@ -10,19 +10,13 @@ from homeassistant.core import HomeAssistant
 from homeassistant.exceptions import ConfigEntryNotReady
 from homeassistant.loader import async_get_integration
 
-from .const import (
-    CONF_HOME_MOTORS_FIRST,
-    CONF_MOVE_TIME,
-    CONF_SYSTEM_INFO,
-    DEFAULT_HOME_MOTORS_FIRST,
-    DEFAULT_MOVE_TIME,
-    DEFAULT_NAME,
-    DOMAIN,
-    STARTUP_MESSAGE,
-)
+from .const import (CONF_HOME_MOTORS_FIRST, CONF_MOVE_TIME, CONF_SYSTEM_INFO,
+                    DEFAULT_HOME_MOTORS_FIRST, DEFAULT_MOVE_TIME, DEFAULT_NAME,
+                    DOMAIN, STARTUP_MESSAGE)
 from .models import SeymourSystemInfo
 from .parser import parse_settings_info_response
-from .serial_controller import SeymourControllerOptions, SeymourSerialController
+from .serial_controller import (SeymourControllerOptions,
+                                SeymourSerialController)
 from .services import register_services, unregister_services
 from .types import SeymourConfigData, SeymourEntryData
 
